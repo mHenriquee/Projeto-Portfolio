@@ -91,7 +91,7 @@ section#ficha img.foto {
   aspect-ratio: 1/1;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 50%; 
   border: 5px solid var(--fundo-card);
   outline: 5px solid var(--destaque);
   display: block;
@@ -276,7 +276,7 @@ footer a {
 
   #projeto-container .projeto {
     flex-direction: row-reverse;
-    justify-content: 1fr 1fr;
+    justify-content: space-between;
   }
 
   #projeto-container .projeto-info {
@@ -284,8 +284,7 @@ footer a {
   }
 
   #projeto-container .foto {
-    aspect-ratio: 1/1;
-    max-width: 20%;
+    aspect-ratio: 16/9;
     max-height: 200px;
   }
 }
